@@ -49,17 +49,17 @@
             <a class="nav-link js-scroll-trigger" href="#Course">Course</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#text">Text</a>
+            <a class="nav-link js-scroll-trigger" href="#references">References</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#grading">Grading</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#calendar">Calendar</a>
+            <a class="nav-link js-scroll-trigger" href="#tutorials">Tutorials</a>
           </li>
           
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#readings">Readings</a>
+            <a class="nav-link js-scroll-trigger" href="#resources">Resources</a>
           </li>
           
             <a class="nav-link js-scroll-trigger" href="https://carlosgi.work/blogtc/">BLOG</a>
@@ -71,6 +71,7 @@
 
     <div class="container-fluid p-0">
 
+<!-- About section -->
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
         <div class="my-auto">
           <main id="course_inner_section" aria-labelledby="section_title">
@@ -81,11 +82,12 @@
             <a href="mailto:name@email.com">teoriacomputacional@upslp.edu.mx</a>
           </div>
           <img itemprop="image" border="0" alt="Venn diagram of some major computational complexity classes." src="img/18-404jf06.jpg" title="Venn diagram of some major computational complexity classes.">
-          <p class="mb-5"><p>Computer scientists are still investigating whether some computational complexity classes of decision problems may in fact be equal. A famous open area in computer science is the &quot;Does P=NP?&quot; question: are all YES/NO problems that can be <em>verified</em> quickly (NP) actually problems that can be directly <em>solved</em> quickly (P)? <a href="http://www.claymath.org/">The Clay Mathematics Institute</a> offers a $1 million reward for a proof to this question. (Image courtesy of Kayla Jacobs.)</p></p>
+          <p class="mb-5"><p>Computer scientists are still investigating whether some computational complexity classes of decision problems may in fact be equal.
+            <a href="http://www.claymath.org/">The Clay Mathematics Institute</a> offers a $1 million reward for a proof to this question. (Image courtesy of Kayla Jacobs.)</p></p>
           <ul class="list-inline list-social-icons mb-0">
 
           <li class="list-inline-item">
-            <a href="https://www.github.com/jc-gi/tc/">
+            <a href="https://github.com/upslp-teoriacomputacional">
               <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -97,14 +99,30 @@
         </div>
       </section>
 
+<!-- Features section -->
+
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="features">
         <div class="my-auto">
-          <h2 class="subhead">Course Meeting Times</h2> 
-                    https://carlosgi.work/tc/
+          <h2 class="subhead">Course details</h2> 
+          <h3>Lectures</h3>
+          <ul>
+            <li>Mondays, 15.00 -- 16.00, 
+            <li>Tuesdays, 15.00 -- 16.00,
+            <li>Thursdays, 15.00 -- 16.00,
+          </ul>
+          
+          
+          <h3>Goals</h3>
+          <ul>
+            <li>Understand the mathematical concepts of the behavior of a computer, 
+            <li>study of computational models: Turing machines, finite automata, stack automata, grammars and formal languages, 
+            <li>the knowledge of computational complexity.
+          </ul>
          </div>
         </div>
       </section>
 
+<!-- Course section -->
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="Course">
         <div class="my-auto">
           <h2 class="mb-5">Schedule</h2>
@@ -121,190 +139,189 @@
           <tr>
             <td>1</td><td>7 - 11 Sept 2020</td><td>00: Set Theory</td>
             <td>
-              ● Introduction to Set Theory
-              ● The Limits of Computation
-              [<a href="slides/chapter1.pdf">Slides 1</a>]
+              <li>Introduction to Set Theory</li>
+              <li>The Limits of Computation </li> 
+              <li>[<a href="slides/chapter1.pdf">Slides 1</a>]</li>
             </td>
             <td>
-              This first problem set is designed to help you gain a familiarity with set theory and basic proof 
-              techniques. By the time you're done, you should have a much stronger sense of how to rigorously
-              establish mathematical results.
+              <li>his first problem set is designed to help you gain a familiarity with set theory and basic proof 
+                techniques. By the time you're done, you should have a much stronger sense of how to rigorously
+                establish mathematical results.</li>T
             </td>
             <td>
-              Written texts: reviews, essays, reports.
-              Knowledge Organizers: maps conceptual, synoptic tables.
-              Structured tests: multiple choice.
+              <li>Written texts: reviews, essays, reports.
+                Knowledge Organizers: maps conceptual, synoptic tables.
+                Structured tests: multiple choice.</li>
             </td>
           </tr>
           
           <tr>
             <td>2</td><td>14 - 18 Sept 2020</td><td>01: Direct Proofs</td>
-            <td>Induction and Deduction
-              [<a href="slides/chapter2.pdf">Slides 2</a>]
+            <td><li>Induction and Deduction</li>
+              <li>[<a href="slides/chapter2.pdf">Slides 2</a>]</li>
             </td>
             <td>
-              In the sciences, much reasoning is done inductively.
-              In mathematics, reasoning is done deductively.
+              <li>In the sciences, much reasoning is done inductively.</li>
+              <li>In mathematics, reasoning is done deductively.</li>
             </td>
             <td>
-              This second problem set is designed to help you master inductive proofs. It begins with some
-              simpler problems intended to help you adjust to induction, then concludes with applications to infinite series, recursive functions, and contests.
+              <li>This second problem set is designed to help you master inductive proofs. It begins with some
+              simpler problems intended to help you adjust to induction, then concludes with applications to infinite series, recursive functions, and contests.</li>
             </td>
           </tr>
 
           <tr>
             <td>3</td><td>21 - 25 Sept 2020</td><td>02: Finite Automata I</td>
-            <td>Finite automata
-              [<a href="slides/chapter3.pdf">Slides 3</a>],
+            <td><li>Finite automata</li>
+              <li>[<a href="slides/chapter3.pdf">Slides 3</a>]</li>
             </td>
-            <td>Finite automata are an abstraction of computers with finite resource constraints.
-              Provide upper bounds for the computing machines that we can actually build.
+            <td><li>Finite automata are an abstraction of computers with finite resource constraints.
+              Provide upper bounds for the computing machines that we can actually build.</li>
             </td>
             <td>
-              For each of the following languages over the indicated alphabets, construct a DFA that 
-              accepts precisely those strings that are in the indicated language and begin with programing in python 3.
-            </td>
+              <li>For each of the following languages over the indicated alphabets, construct a DFA that 
+                accepts precisely those strings that are in the indicated language and begin with programing in python 3.
+             </li> </td>
           </tr>
 
           <tr>
             <tr>
               <td>4</td><td>28 - 30 Sept 2020</td><td>03: Finite Automata II</td>
-              <td>Non Finite Automata
-                [<a href="slides/chapter4.pdf">Slides 4</a>],
+              <td><li>Non Finite Automata</li>
+               <li>[<a href="slides/chapter4.pdf">Slides 4</a>]</li> 
               </td>
-              <td>An NFA is a
-                ● Nondeterministic
-                ● Finite
-                ● Automaton
+              <td><li>An NFA is a</li>
+                <li>Nondeterministic</li>
+                <li>Finite</li>
+                <li>Automaton</li>
               </td>
               <td>
-                For each of the following languages over the indicated alphabets, 
+               <li> For each of the following languages over the indicated alphabets, 
                 construct an NFA that accepts precisely those strings that are in the indicated language and
-                begin with programing in python 3.
+                begin with programing in python 3.</li>
               </td>
           </tr>
 
           <tr>
             <td>5</td><td>05 - 09 Oct 2020</td><td>04: Regular Languages</td>
-            <td>Regular Expressions and The Limits of Regular Languages
-              [<a href="slides/chapter4.pdf">Slides 4</a>],
+            <td><li>Regular Expressions and The Limits of Regular Languages</li>
+              <li>[<a href="slides/chapter4.pdf">Slides 4</a>]</li>
             </td>
-            <td>The regular expressions begin with three simple building blocks.
+            <td><li>The regular expressions begin with three simple building blocks.</li>
             </td>
             <td>
-              This fifth problem set explores the regular languages, their properties, and their limits. 
-              This will be your first foray into computability theory, and I hope you find it fun and exciting!
-            </td>
+              <li>This fifth problem set explores the regular languages, their properties, and their limits. 
+                This will be your first foray into computability theory, and I hope you find it fun and exciting!
+              </li></td>
           </tr>
 
           <tr>
             <tr>
               <td>6</td><td>12 - 16 Oct 2020</td><td>05: Programming Regular Languages</td>
-              <td>Programming Regular Expressions
-                [<a href="slides/chapter5.pdf">Slides 5</a>],
+              <td> <li>Programming Regular Expressions</li>
+               <li>[<a href="slides/chapter5.pdf">Slides 5</a>]</li> 
               </td>
-              <td>The regular expressions begin with programing in python 3.
+              <td><li>The regular expressions begin with programing in python 3.</li>
               </td>
               <td>
-                This problem set explores the programming regular languages, their properties, and their limits. 
-                This will be your first foray into computability theory, and I hope you find it fun and exciting!
-              </td>
+                <li>This problem set explores the programming regular languages, their properties, and their limits. 
+                  This will be your first foray into computability theory, and I hope you find it fun and exciting!
+               </li> </td>
           </tr>
           
           <tr>
             <tr>
-              <td>7</td><td>19 - 23 Oct 2020</td><td>06: 16: Context-Free Languages and Grammars</td>
-              <td>Context-Free Grammars
-                ● A context-free grammar (or CFG) is an entirely different formalism for defining certain languages.
-                [<a href="slides/chapter6.pdf">Slides 6</a>],
+              <td>7</td><td>19 - 23 Oct 2020</td><td>06: Context-Free Languages and Grammars</td>
+              <td><li>Context-Free Grammars</li>
+                
+               <li>[<a href="slides/chapter6.pdf">Slides 6</a>]</li> 
               </td>
-              <td>How much firepower do context-free languages have? What are their limits? And just how awesome are PDAs?
-              </td>
+              <td><li>A context-free grammar (or CFG) is an entirely different formalism for defining certain languages.</li>   </td>
               <td>
-                Below are a list of alphabets and languages over those alphabets. 
-                For each language, design a contextfree grammar that generates that language.
+                <li>Below are a list of alphabets and languages over those alphabets. 
+                  For each language, design a contextfree grammar that generates that language.</li>
               </td>
             </tr>
 
             <tr>
             <td>8</td><td>26 - 30 Oct 2020</td><td>07: Pushdown Automata</td>
-            <td>Regular Expressions and
-              The Limits of Regular Languages
-              [<a href="slides/chapter7.pdf">Slides 7</a>],
+            <td><li>Regular Expressions and the Limits of Regular Languages</li>
+              <li>[<a href="slides/chapter7.pdf">Slides 7</a>]</li>
             </td>
-            <td>the context-free languages, which are those that can be generated by context-free grammars.
-              ● Is there some way to build an automaton that can recognize the context-free languages?
+            <td><li>the context-free languages, which are those that can be generated by context-free grammars.
+               Is there some way to build an automaton that can recognize the context-free languages?</li>
             </td>
             <td>
-              Any CFG can be converted into a PDA with just three states, meaning that the full power 
-              of the context-free languages can be expressed by three-state PDAs.
+             <li> Any CFG can be converted into a PDA with just three states, meaning that the full power 
+              of the context-free languages can be expressed by three-state PDAs.</li>>
             </td>
           </tr>
          
 
           <tr>
             <td>9</td><td>02 - 06 Nov 2020</td><td>08: Defining Computability</td>
-            <td>The standard automaton for this job is the Turing machine.
-              [<a href="slides/chapter8.pdf">Slides 8</a>],
+            <td><li>The standard automaton for this job is the Turing machine.</li>
+              <li>[<a href="slides/chapter8.pdf">Slides 8</a>]</li>
             </td>
-            <td>A Turing machine is a finite automaton equipped with an infinite tape as its memory.
+            <td><li>A Turing machine is a finite automaton equipped with an infinite tape as its memory.</li>
             </td>
             <td>
-              This problem explores Turing machines, nondeterministic computation, properties of the R and RE languages.
+              <li>This problem explores Turing machines, nondeterministic computation, properties of the R and RE languages.
+              </li> 
             </td>
           </tr>
 
 
           <tr>
             <td>10</td><td>09 - 13 Nov 2020</td><td>09: Programming Turing Machines</td>
-            <td>Design a simple programming language that “compiles” down to Turing machines.
-              [<a href="slides/chapter9.pdf">Slides 9</a>],
+            <td><li>Design a simple programming language that “compiles” down to Turing machines.</li>
+              <li>[<a href="slides/chapter9.pdf">Slides 9</a>]</li>
             </td>
-            <td>Keep extending our language to see just how powerful the Turing machine is.
+            <td><li>Keep extending our language to see just how powerful the Turing machine is.</li>
             </td>
             <td>
-              Let's define the language Python to be other language with the introduction of a finite number of counters, 
-              variables that can hold arbitrary natural numbers. Initially, each counter holds the value 0.
+              <li>Let's define the language Python to be other language with the introduction of a finite number of counters, 
+              variables that can hold arbitrary natural numbers. Initially, each counter holds the value 0.</li>
             </td>
           </tr>
 
           <tr>
             <td>11</td><td>16 - 20 Nov 2020</td><td>10: The Complexity Class P</td>
-            <td>The complexity class P (polynomial time) contains all problems that can be solved in polynomial time.
-              [<a href="slides/chapter10.pdf">Slides 10</a>],
+            <td><li>The complexity class P (polynomial time) contains all problems that can be solved in polynomial time.</li>
+              <li>[<a href="slides/chapter10.pdf">Slides 10</a>]</li>
             </td>
-            <td>What problems do we believe are computationally intractable? 
+            <td><li>What problems do we believe are computationally intractable? </li>
             </td>
             <td>
-              Given an undirected graph G = (V, E), a simple path in a G is a path between two nodes u, v ∈ V
-              such that no node is repeated on the path. 
+              <li>Given an undirected graph G = (V, E), a simple path in a G is a path between two nodes u, v ∈ V
+              such that no node is repeated on the path. </li>
             </td>
           </tr>
 
           <tr>
             <td>12</td><td>23 - 27 Nov 2020</td><td>11: A nondeterministic Turing machine.</td>
-            <td>An NTM may have multiple transitions defined for a given state/symbol combination.
-              [<a href="slides/chapter11.pdf">Slides 11</a>],
+            <td><li>An NTM may have multiple transitions defined for a given state/symbol combination.</li>
+              <li>[<a href="slides/chapter11.pdf">Slides 11</a>]</li>
             </td>
-            <td>If we add nondeterminism to the DFA, we get the NFA.
+            <td><li>If we add nondeterminism to the DFA, we get the NFA.</li>
             </td>
             <td>
-              For each statement below, decide whether the statement would definitely prove P = NP, definitely
-              prove P ≠ NP, or would do neither. 
+              <li>For each statement below, decide whether the statement would definitely prove P = NP, definitely
+              prove P ≠ NP, or would do neither.</li> 
             </td>
           </tr>
 
           <tr>
             <td>13</td><td>01 - 04 Dec 2020</td><td>12: The Complexity Class NP.</td>
-            <td>The complexity class NP (nondeterministic polynomial time) contains all problems 
-              that can be solved in polynomial time by a single-tape NTM.
-              [<a href="slides/chapter12.pdf">Slides 12</a>],
+            <td><li>The complexity class NP (nondeterministic polynomial time) contains all problems 
+              that can be solved in polynomial time by a single-tape NTM.</li>
+              <li>[<a href="slides/chapter12.pdf">Slides 12</a>]</li>
             </td>
-            <td>Nondeterministically guess how to fill in all the squares.
+            <td><li>Nondeterministically guess how to fill in all the squares.</li>
             </td>
             <td>
-              A graph coloring is a way of assigning colors to nodes in an undirected graph such that 
-              no two nodes joined by an edge have the same color.
+              <li>A graph coloring is a way of assigning colors to nodes in an undirected graph such that 
+              no two nodes joined by an edge have the same color.</li>
             </td>
           </tr>
 
@@ -314,10 +331,29 @@
         </div>
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="text">
+<!-- References section -->
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="references">
         <div class="my-auto">
-          <h2 class="mb-5">Text</h2>
-            <p><a href="http://www.amazon.com/exec/obidos/ASIN/0534950973/ref=nosim/mitopencourse-20"></a> 
+          <h2 class="mb-5">References</h2>
+          
+          <p><a href="https://onlinelibrary.wiley.com/doi/book/10.1002/9781118315361"></a> 
+            1.	Theory of Computation, George Tourlakis 27 April 2012   </em>. 
+            ISBN:9781118014783</p> 
+          
+          <p><a href=""></a> 
+              2.	2.	Introduction to the Theory of Computation. First Edition, Michael Sipser,</em>. 
+              PWS Publishing Company (1997)
+          </p> 
+          
+          <p><a href=""></a> 
+            3.	Teoría de Autómata y Lenguajes Formales: Dean Kelley. Prentice Hall,</em>. 
+          </p> 
+
+          <p><a href=""></a> 
+            4.	Elements of the Theory of Computation: Harry Lewis, Cristos Papadimitriou, Prentice Hall,</em>. 
+          </p> 
+          
+          <p><a href="http://www.amazon.com/exec/obidos/ASIN/0534950973/ref=nosim/mitopencourse-20"></a> 
              Sipser, Michael. <em>Introduction to the Theory of Computation</em>. 
              2nd ed. Boston, MA: Thomson Course Technology, 2006. ISBN: 0534950973.</p> 
              <p>You'll need the 2nd edition because of the new homework problems it contains. <a href="http://www-math.mit.edu/~sipser/itoc-errs2.1.html">Errata for 2nd edition of textbook</a>.</p> 
@@ -325,128 +361,59 @@
         </div>
       </section>
 
+<!-- Grading section -->
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="grading">
         <div class="my-auto">
           <h2 class="mb-5">Grading criteria</h2>
           <ul class="fa-ul mb-0">
                     
           <h3 class="subsubhead">Homework</h3> 
-          <p>40% of grade. There will be 6 biweekly problem sets. Cooperation policy: Permitted (though not encouraged). If you do cooperate on some problems, then solutions must be written up individually (not copied). Using outside or online materials is not permitted. Homework is due on Thursdays by 11:00 am sharp. Late homework will be accepted the following day up to 1:00 pm, but will be charged a 1 point per problem (out of the 10 point maximum) late penalty. Homework submitted after that will not be graded but will be kept for reference.</p> 
+          <p>40% of grade. </p> 
+          <h3 class="subsubhead">Programming</h3> 
+          <p>30% of grade</p>
+          <h3 class="subsubhead">Participation</h3>
+          <p>20% of grade</p> 
           <h3 class="subsubhead">Exams</h3> 
-          <p>One midterm (20% of grade) during a class session and one final exam (40% of grade) during finals week. The exams are both open book and open notes. You may only use the class textbook and notes you took in lectures and in recitation (i.e. no other books or print-outs of other courses' problems).</p>
-
+          <p>One midterm (10% of grade) and one final exam (40% of grade) during finals week. </p>
+          
+          <h1 class="subsubhead">Notes</h3> 
+          <p>
+            There will be 6 biweekly problem sets. 
+            <p></p>
+            Cooperation policy: Permitted (though not encouraged). 
+            <p></p>
+            If you do cooperate on some problems, then solutions must be written up individually (not copied). 
+            <p></p>
+            Using outside or online materials is not permitted. Homework is due on Thursdays by 11:00 am sharp. 
+            <p></p>
+            Late homework will be accepted the following day up to 1:00 pm, but will be charged a 1 point per problem (out of the 10 point maximum) late penalty. 
+            <p></p>
+            Homework submitted after that will not be graded but will be kept for reference.
+            <p></p>
+            There will be 6 biweekly problem sets. Cooperation policy: Permitted (though not encouraged). 
+            <p></p>
+            If you do cooperate on some problems, then solutions must be written up individually (not copied). 
+            <p></p>
+            Using outside or online materials is not permitted. Homework is due on Thursdays by 11:00 am sharp.
+            <p></p>
+            Late homework will be accepted the following day up to 1:00 pm, but will be charged a 1 point per problem (out of the 10 point maximum) late penalty. 
+            <p></p>
+            Homework submitted after that will not be graded but will be kept for reference.
+            <p></p>
+            The exams are both open book and open notes. 
+            <p></p>
+            You may only use the class textbook and notes you took in lectures and in recitation (i.e. no other books or print-outs of other courses' problems).
+          </p> 
+          
           </ul>
         </div>
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="calendar">
-        <div class="my-auto">
-          <h2 class="mb-5">Calendar</h2>
-          <main id="course_inner_section" aria-labelledby="section_title">
-           		     	
-	       		     	
-            <div class="maintabletemplate">
-            <table class="tablewidth50" summary="See table caption for summary.">
-            <caption class="invisible">Course calender.</caption>
-            <thead>
-            <tr>
-            <th scope="col">SES&nbsp;#</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr class="row">
-            <td>1</td>
-            <td>Introduction, Finite Automata, Regular Expressions</td>
-            <td></td>
-            </tr>
-            
-            <tr class="row">
-            <td>3</td>
-            <td>Regular Pumping Lemma, Context Free Languages</td>
-            <td></td>
-            </tr>
-            
-            <tr class="row">
-            <td>5</td>
-            <td>CF Pumping Lemma, Turing Machines</td>
-            <td>Homework 1 due</td>
-            </tr>
-           
-            <tr class="row">
-            <td>7</td>
-            <td>Decision Problems for Automata and Grammars</td>
-            <td></td>
-            </tr>
-            
-            <tr class="row">
-            <td>9</td>
-            <td>Reducibility</td>
-            <td>Homework 2 due</td>
-            </tr>
-            
-            <tr class="row">
-            <td>11</td>
-            <td>Recursion Theorem and Logic</td>
-            <td></td>
-            </tr>
-            
-            <tr class="row">
-            <td>13</td>
-            <td>Midterm Exam</td>
-            <td></td>
-            </tr>
-           
-            <tr class="row">
-            <td>15</td>
-            <td>NP-Completeness</td>
-            <td></td>
-            </tr>
-            
-            <tr class="row">
-            <td>17</td>
-            <td>Space Complexity</td>
-            <td></td>
-            </tr>
-            
-            <tr class="row">
-            <td>19</td>
-            <td>Games, Generalized Geography</td>
-            <td></td>
-            </tr>
-           
-            <tr class="row">
-            <td>21</td>
-            <td>Hierarchy Theorems</td>
-            <td></td>
-            </tr>
-            
-            <tr class="row">
-            <td>23</td>
-            <td>Probabilistic Computation, BPP</td>
-            <td></td>
-            </tr>
-            
-            <tr class="row">
-            <td>25</td>
-            <td>Interactive Proof Systems, IP</td>
-            <td>Homework 6 due</td>
-            </tr>
-            
-            <tr class="row">
-            <td>27</td>
-            <td>Final Exam</td>
-            <td></td>
-            </tr>
-            </tbody>
-            </table>
-            </div>
-            </main>
-        </div>
-      </section>
+<!-- Tutorials section -->
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="readings">
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="tutorials">
         <div class="my-auto">
-          <h2 class="mb-5">Material</h2>
+          <h2 class="mb-5">Tutorials</h2>
           <ul class="fa-ul mb-0">
 
             <ul class="fa-ul mb-0">
@@ -477,16 +444,41 @@
               
           </ul>
         </div>
-
-        
-
       </section>
 
-</div>
+<!-- Resources section -->
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="resources">
+        <div class="my-auto">
+          <h2 class="mb-5">Resources</h2>
+          <ul class="fa-ul mb-0">
+
+            <ul class="fa-ul mb-0">
+
+              <li>
+                <i class="fa-li fa fa-file-o text-warning"></i>
+                <a href="https://www.abebooks.com/servlet/SearchResults?sts=t&an=hopcroft+motwani+ullman&tn=automata+theory">
+                  Buy e-books</a></li>
+              <li>
+                <p></p>  
+                <i class="fa-li fa fa-file-o text-warning"></i>
+                <a href="http://www.jflap.org/">
+                  Download JFLAP. You might have to install a Java virtual machine to run it.</a></li>
+                <p></p>
+              <li>
+                  <i class="fa-li fa fa-file-o text-warning"></i>
+                  <a href="https://www.anaconda.com/products/individual#Downloads">
+                    Python 3</a></li>
+                  <p></p>
+              <li>
+            </ul>
+          </ul>
+        </div>
+     </section>
 
 
 
-
+  </div>
     </div>
 
     <!-- Bootstrap core JavaScript -->
