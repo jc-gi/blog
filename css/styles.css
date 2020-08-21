@@ -5,7 +5,7 @@ html {
 }
 table {
     border-collapse: collapse;
-    width: 800px;
+    width: 600px;
     overflow-x: scroll;
     display: block;
 }
@@ -18,7 +18,7 @@ thead, tbody {
 tbody {
     overflow-y: scroll;
     overflow-x: hidden;
-    height: 600px;
+    height: 800px;
 }
 td, th {
     min-width: 100px;
