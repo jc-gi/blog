@@ -125,28 +125,16 @@
 <!-- Course section -->
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="Course">
         <div class="my-auto">
-          <h2 class="mb-5">Schedule</h2>
-          <h2 class="subhead"></h2> 
-         <table border="1" bordercolor="black" cellpadding="2" cellspacing="0" table.tableSection {
-          display: table;
-          width: 100%;
-      }
-      table.tableSection thead, table.tableSection tbody {
-          float: left;
-          width: 100%;
-      }
-      table.tableSection tbody {
-          overflow: auto;
-          height: 150px;
-      }
-      table.tableSection tr {
-          width: 100%;
-          display: table;
-          text-align: left;
-      }
-      table.tableSection th, table.tableSection td {
-          width: 33%;
-      } >
+
+          <div class="table-wrapper-scroll-y my-custom-scrollbar"></div>
+          
+        <h2 class="mb-5">Schedule</h2>
+        <h2 class="subhead"></h2> 
+         <table border="1" bordercolor="black" cellpadding="2" cellspacing="0" >
+          
+          <table class="table table-bordered table-striped mb-0">
+          <thead>
+
           <tr>
             <th>#</th>
             <th>Week starting</th>
@@ -155,6 +143,10 @@
             <th>Activities</th>
             <th>Evidence</th>
           </tr>
+
+          </thead>
+          <tbody>
+
           <tr>
             <td>1</td><td>7 - 11 Sept 2020</td><td>00: Set Theory</td>
             <td>
@@ -339,8 +331,8 @@
             </td>
           </tr>
 
-
-          <tr>
+          </tbody>
+          
           </table>
         </div>
       </section>
