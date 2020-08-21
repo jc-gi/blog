@@ -1,11 +1,7 @@
-html {
-    font-family: verdana;
-    font-size: 10pt;
-    line-height: 25px;
-}
+
 table {
     border-collapse: collapse;
-    width: 300px;
+    width: 800px;
     overflow-x: scroll;
     display: block;
 }
